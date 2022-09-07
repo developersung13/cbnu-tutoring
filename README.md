@@ -1,6 +1,6 @@
 ![logo-h](https://user-images.githubusercontent.com/56868605/188793420-13af109c-8a48-4274-8ce4-015cf59522d2.png)
 
-## 충북대학교 소프트웨어중심대학사업단 주관 튜터링 자료 공유 저장소
+## 충북대학교 소프트웨어중심대학사업단 튜터링 자료 공유 저장소
 
 ### Tutor History
 
