@@ -2,7 +2,7 @@
 
 ## 충북대학교 소프트웨어중심대학사업단 튜터링 자료 공유 저장소
 
-### Tutor History
+### Tutor History.
 
 | No. | Grade | Subject | Syllabus | Tutee |
 | :---: | :---: | :---: | :---: | :---: |
