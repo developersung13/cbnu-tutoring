@@ -4,6 +4,6 @@
 
 ### Tutor History
 
-| No. | Grade | Subject | Syllabus | Tutee |
+| No. | Target Grade | Subject | Syllabus | Tutee |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | 1-2 | 응용컴퓨터프로그래밍 | C언어에 대한 고급 프로그래밍 기법을 학습하는 강좌로써, 기초 컴퓨터 프로그램에서 학습한 기초적인 C언어의 문법을 기반으로 응용 프로그램 개발 예제를 통하여 프로그램 개발 능력을 함양한다. | 3 |
