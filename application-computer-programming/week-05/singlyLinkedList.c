@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 typedef struct node{
     int key;
@@ -61,8 +61,6 @@ void insert_node( NODE **n, int key) {
 */
 int delete_node( NODE **n, int key) {
     NODE *temp  = *n;
-    NODE *f     = NULL;
-
     printf("DELETE [%d]\n", key);
 
     // if the key that you want to remove is located firstly.
@@ -78,9 +76,7 @@ int delete_node( NODE **n, int key) {
     while( temp->next != NULL) {
         // if find the key that you want to remove
         if( (temp->next)->key == key) {
-            f   = temp->next;
             temp->next  = (temp->next)->next;
-            free(f);
             return 0;
         } temp    = temp->next;
     } printf("Can't find the key!\n");
