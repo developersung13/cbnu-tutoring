@@ -2,7 +2,7 @@
 
 // Bubble sort
 void sorting(int* arr, int len) {
-    for (int k=0; k < len; k++)
+    for (int k=0; k < len-1; k++)
         for (int z=0; z < len-k-1; z++)
             if (arr[z] > arr[z+1]) {
                 int temp = arr[z];
