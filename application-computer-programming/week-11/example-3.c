@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-#define DEBUG
+#define DEBUG 1
 
 int main() {
-  int x = 5, y = 10;
-
-  printf("x = %d, y = %d\n", x, y);
-#ifdef DEBUG
-  x++;
-  y++;
+#if DEBUG == 1
+  printf("Entered(1)\n");
+#elif DEBUG == 2
+  printf("Entered(2)\n");
 #else
-  x--;
-  y--;
+  printf("Entered(3)\n");
 #endif
-  printf("x = %d, y = %d\n", x, y);
   return 0;
 }
