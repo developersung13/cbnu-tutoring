@@ -9,6 +9,9 @@ int main() {
 #ifdef DEBUG
   x++;
   y++;
+#else
+  x--;
+  y--;
 #endif
   printf("x = %d, y = %d\n", x, y);
   return 0;
