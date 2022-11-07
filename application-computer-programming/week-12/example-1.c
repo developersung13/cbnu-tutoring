@@ -15,5 +15,6 @@ int main() {
   printf("reversed: ");
   for (k=n-1; k >=0; k--)
     printf("%d ", p[k]);
+  free(p);
   return 0;
 }
